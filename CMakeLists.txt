@@ -46,7 +46,7 @@ endif()
 
 # Build Options
 option(RTAUDIO_BUILD_PYTHON "Build PyRtAudio python bindings" OFF)
-set(RTAUDIO_TARGETNAME_UNINSTALL "uninstall" CACHE STRING "Name of 'uninstall' build target")
+set(RTAUDIO_TARGETNAME_UNINSTALL "uninstall-audio" CACHE STRING "Name of 'uninstall' build target")
 
 # API Options
 option(RTAUDIO_API_DS "Build DirectSound API" OFF)
